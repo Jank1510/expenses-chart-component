@@ -57,18 +57,261 @@ main {
 
 .content h1 {
     font-size: 25px;
+    color: rgb(56, 34, 20);
 }
 
 .diagrama {
     width: 100%;
-    height: 10vh;
+    height: 15.5vh;
     display: flex;
     flex-direction: row;
     column-gap: 4%;
+    margin-top: 12%;
+    padding-bottom: 2rem;
 }
 
 .diagrama div {
     width: inherit;
-    height: 10px;
-    background-color: aqua;
+    background-color: rgb(236, 117, 93);
+    margin-top: auto;
+    border-radius: 7px;
+    position: relative;
+    color: gray;
+    cursor: pointer;
+}
+
+.diagrama div:hover {
+    background-color: rgb(255, 155, 135);
+    ;
+}
+
+.mon {
+    height: 35%;
+}
+
+.mon::after {
+    content: 'mon';
+    position: absolute;
+    bottom: -2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.mon:hover:before {
+    visibility: visible !important;
+    content: '$17.45';
+    position: absolute;
+    top: -2.5rem;
+    width: 150%;
+    margin-left: -25%;
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(56, 34, 20);
+    border-radius: 5px;
+    color: white;
+    padding: 4px 0;
+}
+
+.tue {
+    height: 60%;
+}
+
+.tue::after {
+    content: 'tue';
+    position: absolute;
+    bottom: -2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.tue:hover:before {
+    visibility: visible !important;
+    content: '$34.91';
+    position: absolute;
+    top: -2.5rem;
+    width: 150%;
+    margin-left: -25%;
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(56, 34, 20);
+    border-radius: 5px;
+    color: white;
+    padding: 4px 0;
+}
+
+.wed {
+    height: 100%;
+    background-color: rgb(118, 181, 188) !important;
+}
+
+.wed:hover {
+    background-color: rgb(180, 223, 229) !important;
+}
+
+.wed::after {
+    content: 'wed';
+    position: absolute;
+    bottom: -2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.wed:hover:before {
+    visibility: visible !important;
+    content: '$52.36';
+    position: absolute;
+    top: -2.5rem;
+    width: 150%;
+    margin-left: -25%;
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(56, 34, 20);
+    border-radius: 5px;
+    color: white;
+    padding: 4px 0;
+}
+
+.thu {
+    height: 55%;
+}
+
+.thu::after {
+    content: 'thu';
+    position: absolute;
+    bottom: -2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.thu:hover:before {
+    visibility: visible !important;
+    content: '$31.07';
+    position: absolute;
+    top: -2.5rem;
+    width: 150%;
+    margin-left: -25%;
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(56, 34, 20);
+    border-radius: 5px;
+    color: white;
+    padding: 4px 0;
+}
+
+.fri {
+    height: 45%;
+}
+
+.fri::after {
+    content: 'fri';
+    position: absolute;
+    bottom: -2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.fri:hover:before {
+    visibility: visible !important;
+    content: '$23.39';
+    position: absolute;
+    top: -2.5rem;
+    width: 150%;
+    margin-left: -25%;
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(56, 34, 20);
+    border-radius: 5px;
+    color: white;
+    padding: 4px 0;
+}
+
+.sat {
+    height: 80%;
+}
+
+.sat::after {
+    content: 'sat';
+    position: absolute;
+    bottom: -2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.sat:hover:before {
+    visibility: visible !important;
+    content: '$43.28';
+    position: absolute;
+    top: -2.5rem;
+    width: 150%;
+    margin-left: -25%;
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(56, 34, 20);
+    border-radius: 5px;
+    color: white;
+    padding: 4px 0;
+}
+
+.sun {
+    height: 50%;
+}
+
+.sun::after {
+    content: 'sun';
+    position: absolute;
+    bottom: -2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.sun:hover:before {
+    visibility: visible !important;
+    content: '$25.48';
+    position: absolute;
+    top: -2.5rem;
+    width: 150%;
+    margin-left: -25%;
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(56, 34, 20);
+    border-radius: 5px;
+    color: white;
+    padding: 4px 0;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer div span {
+    color: gray;
+}
+
+.footer .der-div {
+    margin-left: auto;
+    text-align: right;
+}
+
+.footer .der-div p {
+    margin-bottom: 0;
+    color: rgb(56, 34, 20);
+    font-weight: bold;
+}
+
+.footer .izq-div {
+    margin-right: auto;
+    text-align: left;
+}
+
+.footer .izq-div p {
+    font-size: 3rem;
+    margin: 0;
+    color: rgb(56, 34, 20);
+}
+
+hr {
+    margin: 2rem 0;
+    background-color: gray;
+    opacity: 20%;
+    ;
 }
