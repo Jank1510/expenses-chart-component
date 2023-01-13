@@ -1,5 +1,5 @@
 # expenses-chart-component
-CHALLENGE expenses-chart-component/
+CHALLENGE expenses-chart-component finalizado ☑
 
 link:
 https://jank1510.github.io/expenses-chart-component/
